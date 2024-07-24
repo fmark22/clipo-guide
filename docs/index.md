@@ -13,6 +13,14 @@ hero:
     - theme: alt
       text: 튜토리얼 영상
       link: /video/index
+    
+    #- theme: brand
+    #  text: 교사용 매뉴얼
+    #  link: /manual/index
+    #- theme: alt
+    #  text: 학생용 매뉴얼
+    #  link: /video/index
+
 
 features:
   - icon : 🧑‍🏫
@@ -22,10 +30,10 @@ features:
     title: 교육부·한국교육학술정보원 지식샘터 등재 에듀테크
     # details: 내용
   - icon : 🧩
-    title: KERIS 
+    title: KERIS 교육현안 프로젝트 참여
     # details: 내용
   - icon : 🔒
     title: 안전한 에듀테크
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # details: 내용
 ---
 

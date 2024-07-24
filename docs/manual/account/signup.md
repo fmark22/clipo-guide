@@ -1,4 +1,6 @@
-# 회원가입
+<div class="page-title-container">
+  <h1 class="page-title">회원가입</h1>
+</div>
 
 **[image]**
 이메일 인증 후 가입 정보를 입력해 주세요.
