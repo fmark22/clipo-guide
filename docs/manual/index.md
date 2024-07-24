@@ -1,63 +1,31 @@
-# Markdown Extension Examples
+# 클리포 (CLIPO)
+클리포와 관련된 가이드 페이지 입니다.
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+## 가이드 사용 방법
+가이드는 다음과 같이 사용하시면 됩니다.
 
-## Syntax Highlighting
-
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
-
-**Input**
+**목차**
 
 ````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+
 ````
 
-**Output**
+<a href="https://example.com" style="
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s;
+">이 버튼을 클릭하세요</a>
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+
 
 ## Custom Containers
 
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
 **Output**
 
 ::: info
@@ -80,6 +48,7 @@ This is a dangerous warning.
 This is a details block.
 :::
 
-## More
+## 2024 클리포
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+2024년동안 무료로 사용 가능합니다.
+이외 더 궁금하신 사항이 있다면 클리포 도입문의 [클리포 도입문의](https://clipo.ai/staffs/home) 페이지에 남겨주세요.
