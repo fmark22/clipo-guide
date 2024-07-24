@@ -3,26 +3,29 @@
 layout: home
 
 hero:
-  name: "클리포"
-  text: "가이드 페이지"
-  tagline: My great project tagline
+  name: "클리포 가이드"
+  # text: "가이드 페이지"
+  tagline: 클리포를 쉽게 배워보세요.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 매뉴얼 가이드
+      link: /manual/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 튜토리얼 영상
+      link: /video/index
 
 features:
-  - icon : ⭐ 
-    title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - icon : ⭐ 
-    title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - icon : ⭐ 
-    title: Feature C
+  - icon : 🧑‍🏫
+    title: 교육부 터치(T.O.U.C.H.)교사단 양성 연수 참여
+    # details: 내용
+  - icon : 💻
+    title: 교육부·한국교육학술정보원 지식샘터 등재 에듀테크
+    # details: 내용
+  - icon : 🧩
+    title: KERIS 
+    # details: 내용
+  - icon : 🔒
+    title: 안전한 에듀테크
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

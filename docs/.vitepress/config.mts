@@ -6,6 +6,7 @@ export default defineConfig({
   description: "처음 시작 가이드",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/',
     nav: [
       { text: '홈', link: '/' },
       { text: '클리포로 이동', link: 'https://clipo.ai' },
@@ -13,16 +14,19 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+        {
+          text: '클리포 시작하기',
+          collapsed: false,
+          items: [
+            { text: '회원가입', link: '/manual/signup' },
+            { text: '로그인', link: '/manual/login' },
+            { text: '교사인증', link: '/manual/teacher-verification' }
+            ]  
+          }
         ]
-      }
-    ],
+      },
     socialLinks: [
-      { icon: 'youtube', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@clipo-ai' }
     ],
     footer: {
       copyright: 'Copyright © 2024 Datadriven'
@@ -30,5 +34,4 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  }
-})
+  })
