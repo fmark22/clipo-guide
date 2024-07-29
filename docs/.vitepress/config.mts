@@ -5,6 +5,7 @@ export default defineConfig({
   title: "클리포",
   description: "처음 시작 가이드",
   head: [
+    //구글 GA 설치
     [
       "script",
       {
@@ -19,6 +20,34 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-RJSLGW428L');`,
+    ],
+    //구글 tag manager 설치
+    [
+      "script",
+      {},
+      `(function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),
+        dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WXPK527L');
+    `],
+      // GTM noscript 추가
+      ['noscript', {}, `
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXPK527L" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      `],
+    //ms-clarity 설치
+    ["script", 
+      { type: 'text/javascript' }, 
+      `(function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "net3mhon8c");`,
     ],
     ['link', { rel: 'stylesheet', href: '/styles.css' }]
   ],
