@@ -5,6 +5,21 @@ export default defineConfig({
   title: "클리포",
   description: "처음 시작 가이드",
   head: [
+    [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-RJSLGW428L",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RJSLGW428L');`,
+    ],
     ['link', { rel: 'stylesheet', href: '/styles.css' }]
   ],
   sitemap: {
