@@ -7,6 +7,9 @@ export default defineConfig({
   head: [
     ['link', { rel: 'stylesheet', href: '/styles.css' }]
   ],
+  sitemap: {
+    hostname: "https://clipo-guide.vercel.app/",
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/',
@@ -98,83 +101,40 @@ export default defineConfig({
         ]
       }
     ],
-    '/video/': [
+    '/manualS/': [
       {
         text: '클리포 시작하기',
         collapsed: false,
         items: [
           //{ text: '<strong>클리포 시작하기</strong>' },
-          { text: '회원가입', link: '/manual/account/signup' },
-          { text: '로그인', link: '/manual/account/login' },
-          { text: '교사인증', link: '/manual/account/teacher-verification' }
+          { text: '로그인', link: '/manualS/account/login' },
+          { text: '비밀번호 변경', link: '/manualS/account/password' },
+          { text: '홈화면', link: '/manualS/account/home' }
         ]
       },
       {
-        text: '학교정보',
+        text: '과제 제출 및 결과 확인',
         collapsed: false,
         items: [
-          { text: '학기설정', link: '/manual/school/semester' },
-          { text: '선생님 관리', link: '/manual/school/teachers' },
-          { text: '학생 관리', link: '/manual/school/students' }
+          { text: '과제 제출', link: '/manualS/assessment/submit' },
+          { text: '과제 확인', link: '/manualS/assessment/check' },
+          { text: '과제 결과 확인', link: '/manualS/assessment/results' }
         ]
       },
       {
-        text: '수업 관리',
+        text: '리포트 확인',
         collapsed: false,
         items: [
-          { text: '수업 홈', link: '/manual/course/home' },
-          { text: '참여학생 등록', link: '/manual/course/student' },
-          { text: '관찰 기록', link: '/manual/course/record' }
+          { text: '리포트 조회', link: '/manualS/reports/see' },
+          { text: '리포트 확인', link: '/manualS/reports/check' },
         ]
       },
       {
-        text: '수행평가 설계',
+        text: '기초진단',
         collapsed: false,
         items: [
-          { text: '등록', link: '/manual/assessment/make' },
-        ]
-      },
-      {
-        text: '수행평가 과제',
-        collapsed: false,
-        items: [
-          { text: '등록', link: '/manual/assessment_task/make' },
-          { text: '관리', link: '/manual/assessment_task/manage' },
-          { text: 'PDF 업로드', link: '/manual/assessment_task/upload' },
-        ]
-      },
-      {
-        text: '수행평가 채점',
-        collapsed: false,
-        items: [
-          { text: '채점', link: '/manual/assessment_grade/grading' },
-          { text: 'AI Assistant', link: '/manual/assessment_grade/ai-assisatant' },
-          { text: '채점 결과', link: '/manual/assessment_grade/ai-assisatant/result' }
-        ]
-      },
-      {
-        text: '종합기록',
-        collapsed: false,
-        items: [
-          { text: '종합기록 생성', link: '/manual/records/make' }
-        ]
-      },
-      {
-        text: '리포트',
-        collapsed: false,
-        items: [
-          { text: '등록', link: '/manual/reports/make' },
-          { text: '확인', link: '/manual/reports/see' },
-          { text: '공유', link: '/manual/reports/share' }
-        ]
-      },
-      {
-        text: 'AI 커뮤니티',
-        collapsed: false,
-        items: [
-          { text: '목록', link: '/manual/community/list' },
-          { text: '만들기', link: '/manual/community/make' },
-          { text: '요청', link: '/manual/community/request' }
+          { text: '기초진단 시작', link: '/manualS/basic/start' },
+          { text: '기초진단 결과 확인', link: '/manualS/basic/results' }
         ]
       }
     ]
