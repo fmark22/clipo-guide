@@ -41,14 +41,13 @@ export default defineConfig({
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXPK527L" height="0" width="0" style="display:none;visibility:hidden"></iframe>
       `],
     //ms-clarity 설치
-    ["script", 
-      { type: 'text/javascript' }, 
-      `(function(c,l,a,r,i,t,y){
+    ['script', { type: 'text/javascript' }, `
+      (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
           t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "net3mhon8c");`,
-    ],
+      })(window, document, "clarity", "script", "net3mhon8c");
+    `],
     ['link', { rel: 'stylesheet', href: '/styles.css' }]
   ],
   sitemap: {
