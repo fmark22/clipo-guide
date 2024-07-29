@@ -7,19 +7,19 @@ hero:
   # text: "가이드 페이지"
   tagline: 클리포를 쉽게 배워보세요.
   actions:
+    #- theme: brand
+     # text: 매뉴얼 가이드
+      #link: /manual/index
+    #- theme: alt
+     # text: 튜토리얼 영상
+     # link: /video/index
+    
     - theme: brand
-      text: 매뉴얼 가이드
+      text: 교사 매뉴얼
       link: /manual/index
     - theme: alt
-      text: 튜토리얼 영상
-      link: /video/index
-    
-    #- theme: brand
-    #  text: 교사용 매뉴얼
-    #  link: /manual/index
-    #- theme: alt
-    #  text: 학생용 매뉴얼
-    #  link: /video/index
+      text: 학생 매뉴얼
+      link: /manualS/index
 
 
 features:
