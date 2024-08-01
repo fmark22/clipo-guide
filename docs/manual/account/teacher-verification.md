@@ -1,6 +1,4 @@
-<div class="page-title-container">
-  <h1 class="page-title">교사인증</h1>
-</div>
+# 교사 인증
 
 ## 교사 인증 진행하기
 [img]

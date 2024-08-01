@@ -16,10 +16,10 @@ hero:
     
     - theme: brand
       text: 교사 매뉴얼
-      #link: /manual/index
+      link: /manual/index
     - theme: alt
       text: 학생 매뉴얼
-      #link: /manualS/index
+      link: /manualS/index
 
 
 features:

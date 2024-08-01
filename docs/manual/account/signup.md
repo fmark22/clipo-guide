@@ -1,12 +1,17 @@
-<div class="page-title-container">
-  <h1 class="page-title">회원가입</h1>
-</div>
+# 회원가입
 
-**[image]**
-이메일 인증 후 가입 정보를 입력해 주세요.
+![회원가입 이미지](./img/signup.png)
+<p>
+클리포 홈페이지에서 회원가입을 클릭해 주세요.
+</p>
 
-**[image]**
+[인증메일img]
 인증 메일의 확인 링크를 클릭하면 회원가입 페이지로 이동해요.
+
+![회원가입 이미지2](./img/sinup2.png)
+<p>
+이메일 인증 후 가입 정보를 입력해 주세요.
+</p>
 
 ::: warning
 This is a warning.

@@ -1,4 +1,4 @@
-/* docs/.vitepress/styles.css */
+/* docs/.vitepress/styles.css 
 .page-title-container {
     display: flex;
     align-items: center;
@@ -15,5 +15,19 @@
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
-  }
-  
+  }*/
+
+.vp-doc .vp-tip::before {
+  content: "💡"; /* 아이콘 설정 */
+  margin-right: 8px;
+}
+
+.vp-doc .vp-warning::before {
+  content: "⚠️"; /* 아이콘 설정 */
+  margin-right: 8px;
+}
+
+.vp-doc .vp-danger::before {
+  content: "❗"; /* 아이콘 설정 */
+  margin-right: 8px;
+}
