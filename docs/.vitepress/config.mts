@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "클리포",
+  title: "클리포 매뉴얼",
   description: "처음 시작 가이드",
   head: [
     //구글 GA 설치
