@@ -125,12 +125,12 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '채점', link: '/manual/assessment_grade/grading' },
-          { text: 'AI Assistant', link: '/manual/assessment_grade/ai-assisatant' },
-          { text: '채점 결과', link: '/manual/assessment_grade/ai-assisatant/result' }
+          { text: 'AI Assistant', link: '/manual/assessment_grade/assistant' },
+          { text: '채점 결과', link: '/manual/assessment_grade/result' }
         ]
       },
       {
-        text: '종합기록',
+        text: '종합기록', link: '/manual/records/make',
         collapsed: false,
         items: [
           { text: '종합기록 생성', link: '/manual/records/make' }
@@ -146,12 +146,9 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI 커뮤니티',
-        collapsed: false,
+        text: 'AI 커뮤니티', link: '/manual/community/content',
         items: [
-          { text: '목록', link: '/manual/community/list' },
-          { text: '만들기', link: '/manual/community/make' },
-          { text: '요청', link: '/manual/community/request' }
+          { text: '', link: '/manual/community/content' }
         ]
       }
     ],
@@ -207,14 +204,5 @@ export default defineConfig({
       prev: '이전',
       next: '다음'
     },
-    // markdown: {
-    //   container: {
-    //     tipLabel: '팁',
-    //     warningLabel: '경고',
-    //     dangerLabel: '위험',
-    //     infoLabel: '정보',
-    //     detailsLabel: '세부 정보'
-    //   }
-    // },
   }
 })

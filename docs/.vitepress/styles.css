@@ -31,3 +31,8 @@
   content: "❗"; /* 아이콘 설정 */
   margin-right: 8px;
 }
+
+.vp-badge.tip {
+  background-color: #FFA500;
+  color: black;
+}
