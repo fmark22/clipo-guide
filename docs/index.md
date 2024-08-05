@@ -3,38 +3,22 @@
 layout: home
 
 hero:
-  name: "클리포(CLIPO)"
-  text: "교사/학생 매뉴얼"
-  tagline: 클리포를 쉽게 배워보세요.
-  actions:
-    #- theme: brand
-     # text: 매뉴얼 가이드
-      #link: /manual/index
-    #- theme: alt
-     # text: 튜토리얼 영상
-     # link: /video/index
-    
-    - theme: brand
-      text: 교사 매뉴얼
-      link: /manual/index
-    # - theme: alt
-    #   text: 학생 매뉴얼
-    #   link: /manualS/index
+  name: "클리포(CLIPO) 매뉴얼"
+  # text: "매뉴얼"
+  tagline: 클리포 활용 방법을 안내드려요.
   
 features:
   - icon : 🧑‍🏫
-    title: 연수 안내
-    details: 클리포 연수 일정과 연수 내용에 대해 알려드립니다.
-    link: /training/index
+    title: 교사용 매뉴얼
+    details: 선생님을 위한 클리포 매뉴얼입니다.
+    # link: /manual/index
+  - icon : 🧑‍🎓
+    title: 학생용 매뉴얼
+    details: 학생들이 클리포를 활용하는 방법을 알아보세요.
+    # link : /manualS/index
   - icon : 💻
-    title: 교육부·한국교육학술정보원 지식샘터 등재 에듀테크
-    details: 내용
-  - icon : 🧩
-    title: KERIS 교육현안 프로젝트 참여
-    # details: 내용
-  # - icon : 🔒
-  #   title: 블로그
-  #   # details: 
-  #   link: /blog/index
+    title: 클리포 영상
+    details: 클리포 활용 방법을 영상으로 확인해 보세요.
+    # link: /video/index
 ---
 

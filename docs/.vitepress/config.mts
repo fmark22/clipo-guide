@@ -1,4 +1,11 @@
+import markdownIt from 'markdown-it'
 import { defineConfig } from 'vitepress'
+import markdownTimeline from "vitepress-markdown-timeline"
+
+// TypeScript에 타입을 명시적으로 추가
+interface MarkdownConfig {
+  config: (md: any) => void
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,7 +68,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
   ],
   sitemap: {
-    hostname: "https://clipo-guide.vercel.app/",
+    hostname: "https://guide.clipo.ai",
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -69,7 +76,7 @@ export default defineConfig({
     nav: [
       { text: '홈', link: '/' },
       { text: '클리포로 이동', link: 'https://clipo.ai' },
-      { text: '도입 문의', link: 'https://clipo.ai/helps/pricing-guide' }
+      { text: '연수 및 도입 문의', link: 'https://clipo.ai/helps/pricing-guide' }
     ],
     sidebar: {
     '/manual/': [
