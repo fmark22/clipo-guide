@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 ---
 <script setup>
@@ -50,4 +50,4 @@ const members = [
   <VPTeamMembers
     :members="members"
   />
-</VPTeamPage>
+</VPTeamPage> -->
