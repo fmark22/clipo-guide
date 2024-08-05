@@ -207,5 +207,14 @@ export default defineConfig({
       prev: '이전',
       next: '다음'
     },
+    // markdown: {
+    //   container: {
+    //     tipLabel: '팁',
+    //     warningLabel: '경고',
+    //     dangerLabel: '위험',
+    //     infoLabel: '정보',
+    //     detailsLabel: '세부 정보'
+    //   }
+    // },
   }
 })

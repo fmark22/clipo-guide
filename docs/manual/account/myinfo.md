@@ -1,11 +1,11 @@
-<div class="page-title-container">
-  <h1 class="page-title">내정보</h1>
-</div>
+# 내정보
 
 ## 콘텐츠 관리
 클리포에서 만든 수행평가, 과제, AI앱의 공개여부를 설정할 수 있습니다.
-[img] 수행평가 과제 공개여부 설정
-[img] AI앱 공개여부 설정
+![이미지](./img/example.png)
+수행평가 과제 공개여부 설정
+![이미지](./img/example.png)
+AI앱 공개여부 설정
 
 내 정보에서 '콘텐츠 관리'를 클릭해서 내가 만든 콘텐츠를 관리할 수 있어요.
 

@@ -1,3 +1,5 @@
-<div class="page-title-container">
-  <h1 class="page-title">비밀번호 변경</h1>
-</div>
+# 비밀번호 변경
+
+:::warning
+내용
+:::
