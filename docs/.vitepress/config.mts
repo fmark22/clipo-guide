@@ -79,120 +79,120 @@ export default defineConfig({
       { text: '연수 및 도입 문의', link: 'https://clipo.ai/helps/pricing-guide' }
     ],
     sidebar: {
-    '/manual/': [
+    '/teacher/': [
       {
         text: '클리포 시작하기',
         collapsed: false,
         items: [
           //{ text: '<strong>클리포 시작하기</strong>' },
-          { text: '회원가입', link: '/manual/account/signup' },
-          { text: '로그인', link: '/manual/account/login' },
-          { text: '비밀번호 변경', link: '/manual/account/password' },
-          { text: '교사인증', link: '/manual/account/teacher-verification' },
-          { text: '내정보', link: '/manual/account/myinfo' }
+          { text: '회원가입', link: '/teacher/account/signup' },
+          { text: '로그인', link: '/teacher/account/login' },
+          { text: '비밀번호 변경', link: '/teacher/account/password' },
+          { text: '교사인증', link: '/teacher/account/teacher-verification' },
+          { text: '내정보', link: '/teacher/account/myinfo' }
         ]
       },
       {
         text: '학교정보',
         collapsed: false,
         items: [
-          { text: '학기설정', link: '/manual/school/semester' },
-          { text: '선생님 관리', link: '/manual/school/teachers' },
-          { text: '학생 관리', link: '/manual/school/students' }
+          { text: '학기설정', link: '/teacher/school/semester' },
+          { text: '선생님 관리', link: '/teacher/school/teachers' },
+          { text: '학생 관리', link: '/teacher/school/students' }
         ]
       },
       {
         text: '수업 관리',
         collapsed: false,
         items: [
-          { text: '수업 등록', link: '/manual/course/make' },
-          { text: '수업 홈', link: '/manual/course/home' },
-          { text: '참여학생 등록', link: '/manual/course/student' },
-          { text: '관찰 기록', link: '/manual/course/record' }
+          { text: '수업 등록', link: '/teacher/course/make' },
+          { text: '수업 홈', link: '/teacher/course/home' },
+          { text: '참여학생 등록', link: '/teacher/course/student' },
+          { text: '관찰 기록', link: '/teacher/course/record' }
         ]
       },
       {
         text: '수행평가 설계',
         collapsed: false,
         items: [
-          { text: '등록', link: '/manual/assessment/make' },
+          { text: '등록', link: '/teacher/assessment/make' },
         ]
       },
       {
         text: '수행평가 과제',
         collapsed: false,
         items: [
-          { text: '등록', link: '/manual/assessment_task/make' },
-          { text: '관리', link: '/manual/assessment_task/manage' },
-          { text: 'PDF 업로드', link: '/manual/assessment_task/upload' },
+          { text: '등록', link: '/teacher/assessment_task/make' },
+          { text: '관리', link: '/teacher/assessment_task/manage' },
+          { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
         ]
       },
       {
         text: '수행평가 채점',
         collapsed: false,
         items: [
-          { text: '채점', link: '/manual/assessment_grade/grading' },
-          { text: 'AI Assistant', link: '/manual/assessment_grade/assistant' },
-          { text: '채점 결과', link: '/manual/assessment_grade/result' }
+          { text: '채점', link: '/teacher/assessment_grade/grading' },
+          { text: 'AI Assistant', link: '/teacher/assessment_grade/assistant' },
+          { text: '채점 결과', link: '/teacher/assessment_grade/result' }
         ]
       },
       {
-        text: '종합기록', link: '/manual/records/make',
+        text: '종합기록', link: '/teacher/records/make',
         collapsed: false,
         items: [
-          { text: '종합기록 생성', link: '/manual/records/make' }
+          { text: '종합기록 생성', link: '/teacher/records/make' }
         ]
       },
       {
         text: '리포트',
         collapsed: false,
         items: [
-          { text: '등록', link: '/manual/reports/make' },
-          { text: '확인', link: '/manual/reports/see' },
-          { text: '공유', link: '/manual/reports/share' }
+          { text: '등록', link: '/teacher/reports/make' },
+          { text: '확인', link: '/teacher/reports/see' },
+          { text: '공유', link: '/teacher/reports/share' }
         ]
       },
       {
-        text: 'AI 커뮤니티', link: '/manual/community/content',
+        text: 'AI 커뮤니티', link: '/teacher/community/content',
         items: [
-          { text: '', link: '/manual/community/content' }
+          { text: '', link: '/teacher/community/content' }
         ]
       }
     ],
-    '/manualS/': [
+    '/student/': [
       {
         text: '클리포 시작하기',
         collapsed: false,
         items: [
           //{ text: '<strong>클리포 시작하기</strong>' },
-          { text: '로그인', link: '/manualS/account/login' },
-          { text: '비밀번호 변경', link: '/manualS/account/password' },
-          { text: '홈화면', link: '/manualS/account/home' }
+          { text: '로그인', link: '/student/account/login' },
+          { text: '비밀번호 변경', link: '/student/account/password' },
+          { text: '홈화면', link: '/student/account/home' }
         ]
       },
       {
         text: '과제 제출 및 결과 확인',
         collapsed: false,
         items: [
-          { text: '과제 제출', link: '/manualS/assessment/submit' },
-          { text: '과제 확인', link: '/manualS/assessment/check' },
-          { text: '과제 결과 확인', link: '/manualS/assessment/results' }
+          { text: '과제 제출', link: '/student/assessment/submit' },
+          { text: '과제 확인', link: '/student/assessment/check' },
+          { text: '과제 결과 확인', link: '/student/assessment/results' }
         ]
       },
       {
         text: '리포트 확인',
         collapsed: false,
         items: [
-          { text: '리포트 조회', link: '/manualS/reports/see' },
-          { text: '리포트 확인', link: '/manualS/reports/check' },
+          { text: '리포트 조회', link: '/student/reports/see' },
+          { text: '리포트 확인', link: '/student/reports/check' },
         ]
       },
       {
         text: '기초진단',
         collapsed: false,
         items: [
-          { text: '기초진단 시작', link: '/manualS/basic/start' },
-          { text: '기초진단 결과 확인', link: '/manualS/basic/results' }
+          { text: '기초진단 시작', link: '/student/basic/start' },
+          { text: '기초진단 결과 확인', link: '/student/basic/results' }
         ]
       }
     ]
