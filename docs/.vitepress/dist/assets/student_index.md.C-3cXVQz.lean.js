@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.DsIOUrya.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"student/index.md","filePath":"student/index.md"}'),a={name:"student/index.md"};function s(r,d,o,c,i,p){return n(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

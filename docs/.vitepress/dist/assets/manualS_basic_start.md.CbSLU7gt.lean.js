@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as e}from"./chunks/framework.DsIOUrya.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"manualS/basic/start.md","filePath":"manualS/basic/start.md"}'),s={name:"manualS/basic/start.md"};function r(c,n,o,i,m,p){return e(),t("div")}const l=a(s,[["render",r]]);export{d as __pageData,l as default};

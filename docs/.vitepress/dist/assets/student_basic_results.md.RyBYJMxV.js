@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.DsIOUrya.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"student/basic/results.md","filePath":"student/basic/results.md"}'),a={name:"student/basic/results.md"};function r(c,n,o,d,i,l){return s(),e("div")}const _=t(a,[["render",r]]);export{u as __pageData,_ as default};

@@ -12,12 +12,12 @@ features:
     title: 교사용 매뉴얼
     details: 선생님을 위한 클리포 매뉴얼입니다.
     # link: /teacher
-    #link: /teacher/index
+    # link: /teacher/index
   - icon : 🧑‍🎓
     title: 학생용 매뉴얼
     details: 학생들이 클리포를 활용하는 방법을 알아보세요.
     # link : /student
-    #link: /student/index
+    # link: /student/index
   - icon : 💻
     title: 클리포 영상
     details: 클리포 활용 방법을 영상으로 확인해 보세요.
