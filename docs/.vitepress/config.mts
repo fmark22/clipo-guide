@@ -1,6 +1,5 @@
 import markdownIt from 'markdown-it'
 import { defineConfig } from 'vitepress'
-import markdownTimeline from "vitepress-markdown-timeline"
 
 // TypeScript에 타입을 명시적으로 추가
 interface MarkdownConfig {
@@ -9,7 +8,7 @@ interface MarkdownConfig {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "클리포 매뉴얼",
+  title: "클리포 가이드",
   description: "처음 시작 가이드",
   head: [
     //구글 GA 설치
@@ -61,7 +60,7 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap' }],
      
     // Open Graph meta tags
-    ['meta', { property: 'og:title', content: '클리포 매뉴얼' }],
+    ['meta', { property: 'og:title', content: '클리포 가이드' }],
     ['meta', { property: 'og:description', content: '클리포를 쉽게 배워보세요' }],
     ['meta', { property: 'og:image', content: '/public/og.png' }],
     ['meta', { property: 'og:url', content: 'https://guide.clipo.ai' }],
