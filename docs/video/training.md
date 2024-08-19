@@ -3,9 +3,8 @@ import { ref, nextTick } from 'vue'
 
 const categories = ref([
   {
-    name: '기본 소개',
     videos: [
-      { title: '클리포 소개', youtubeId: 'wiTCb9JjTzs' },
+      { title: '온라인 연수', description: '7월 지식샘터 영상', youtubeId: '-XW3Q87KAc4' },
     ]
   }
 ])
@@ -37,6 +36,7 @@ function selectVideo(video) {
 
 <!-- 비디오 플레이어 -->
 <div v-if="selectedVideo" class="video-player">
+<h3 class="video-description">{{ selectedVideo.description }}</h3>
   <iframe 
     width="560" 
     height="315" 
@@ -60,9 +60,15 @@ function selectVideo(video) {
   margin-bottom: 10px;
 }
 
+/* 설명 스타일 */
+.video-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 /* 플레이어 스타일 */
 .video-player {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 20px;
   background-color: var(--vp-c-bg-soft);
   border-radius: 8px;

@@ -163,7 +163,6 @@ export default defineConfig({
         text: '클리포 시작하기',
         collapsed: false,
         items: [
-          //{ text: '<strong>클리포 시작하기</strong>' },
           { text: '로그인', link: '/student/account/login' },
           { text: '비밀번호 변경', link: '/student/account/password' },
           { text: '홈화면', link: '/student/account/home' }
@@ -191,9 +190,37 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '기초진단 시작', link: '/student/basic/start' },
-          { text: '기초진단 결과 확인', link: '/student/basic/results' }
+          { text: '기초진단 결과 확인', link: '/student/basic/results' },
         ]
       }
+    ],
+    '/video/': [
+      {
+        text: '기본 소개',
+        collapsed: false,
+        items: [
+          { text: '소개', link: '/video/intro' },
+          { text: '설계 이념', link: '/video/philosophy' },
+          { text: '주요 기능', link: '/video/features' },
+        ]
+      },
+      {
+        text: '기능 소개',
+        collapsed: false,
+        items: [
+          { text: '기본 설정', link: '/video/setting' },
+          { text: '관찰 기록', link: '/video/records' },
+          { text: '수행평가 설계', link: '/video/design' },
+          { text: '수행평가 과제', link: '/video/tasks' },
+          { text: '수행평가 채점', link: '/video/grading' },
+          { text: '수행평가 자동 채점', link: '/video/aigrading' },
+          { text: '종합 기록', link: '/video/recording' },
+          { text: '리포트', link: '/video/reports' },
+        ]
+      },
+      {
+        text: '<strong>온라인 연수</strong>', link: '/video/training'
+      },
     ]
   },
     socialLinks: [

@@ -3,9 +3,10 @@ import { ref, nextTick } from 'vue'
 
 const categories = ref([
   {
+    id: 'category1',
     name: '기본 소개',
     videos: [
-      { title: '클리포 소개', youtubeId: 'wiTCb9JjTzs' },
+      { title: '주요 기능', youtubeId: 'xyDQtWSewwo' },
     ]
   }
 ])
