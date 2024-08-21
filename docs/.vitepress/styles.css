@@ -36,3 +36,8 @@
   background-color: #FFA500;
   color: black;
 }
+
+.vp-search-input input::placeholder {
+  color: #888; /* 원하는 색상 */
+  content: "검색"; /* 원하는 텍스트 */
+}
