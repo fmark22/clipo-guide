@@ -1,12 +1,12 @@
 import {
   useMediaQuery
-} from "./chunk-FKWUMRZQ.js";
+} from "./chunk-ACCANHEE.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-QV67L234.js";
+} from "./chunk-WWHOV5KU.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "C:/Users/rladb/OneDrive/문서/GitHub/clipo-guide/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
