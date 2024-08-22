@@ -80,10 +80,9 @@ export default defineConfig({
         text: '클리포 시작하기',
         collapsed: false,
         items: [
-          //{ text: '<strong>클리포 시작하기</strong>' },
           { text: '회원가입', link: '/teacher/account/signup' },
           { text: '로그인', link: '/teacher/account/login' },
-          { text: '비밀번호 변경', link: '/teacher/account/password' },
+          // { text: '비밀번호 변경', link: '/teacher/account/password' },
           { text: '교사인증', link: '/teacher/account/teacher-verification' },
           { text: '내정보', link: '/teacher/account/myinfo' }
         ]
@@ -97,15 +96,15 @@ export default defineConfig({
           { text: '학생 관리', link: '/teacher/school/students' }
         ]
       },
-      {
-        text: '평가계획',
-        collapsed: false,
-        items: [
-          { text: '평가계획 목록', link: '/teacher/evaluationPlan/list' },
-          { text: '폥가계획 설계', link: '/teacher/evaluationPlan/make' },
-          { text: '평가계획 자료실', link: '/teacher/evaluationPlan/resources' }
-        ]
-      },
+      // {
+      //   text: '평가계획',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '평가계획 목록', link: '/teacher/evaluationPlan/list' },
+      //     { text: '폥가계획 설계', link: '/teacher/evaluationPlan/make' },
+      //     { text: '평가계획 자료실', link: '/teacher/evaluationPlan/resources' }
+      //   ]
+      // },
       {
         text: '수업 관리',
         collapsed: false,
@@ -116,53 +115,53 @@ export default defineConfig({
           { text: '관찰 기록', link: '/teacher/course/record' }
         ]
       },
-      {
-        text: '수행평가 설계',
-        collapsed: false,
-        items: [
-          { text: '등록', link: '/teacher/assessment/make' },
-        ]
-      },
-      {
-        text: '수행평가 과제',
-        collapsed: false,
-        items: [
-          { text: '등록', link: '/teacher/assessment_task/make' },
-          { text: '관리', link: '/teacher/assessment_task/manage' },
-          { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
-        ]
-      },
-      {
-        text: '수행평가 채점',
-        collapsed: false,
-        items: [
-          { text: '채점', link: '/teacher/assessment_grade/grading' },
-          { text: 'AI Assistant', link: '/teacher/assessment_grade/assistant' },
-          { text: '채점 결과', link: '/teacher/assessment_grade/result' }
-        ]
-      },
-      {
-        text: '종합기록', link: '/teacher/records/make',
-        collapsed: false,
-        items: [
-          { text: '종합기록 생성', link: '/teacher/records/make' }
-        ]
-      },
-      {
-        text: '리포트',
-        collapsed: false,
-        items: [
-          { text: '등록', link: '/teacher/reports/make' },
-          { text: '확인', link: '/teacher/reports/see' },
-          { text: '공유', link: '/teacher/reports/share' }
-        ]
-      },
-      {
-        text: 'AI 커뮤니티', link: '/teacher/community/content',
-        items: [
-          { text: '', link: '/teacher/community/content' }
-        ]
-      }
+      // {
+      //   text: '수행평가 설계',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '등록', link: '/teacher/assessment/make' },
+      //   ]
+      // },
+      // {
+      //   text: '수행평가 과제',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '등록', link: '/teacher/assessment_task/make' },
+      //     { text: '관리', link: '/teacher/assessment_task/manage' },
+      //     { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
+      //   ]
+      // },
+      // {
+      //   text: '수행평가 채점',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '채점', link: '/teacher/assessment_grade/grading' },
+      //     { text: 'AI Assistant', link: '/teacher/assessment_grade/assistant' },
+      //     { text: '채점 결과', link: '/teacher/assessment_grade/result' }
+      //   ]
+      // },
+      // {
+      //   text: '종합기록', link: '/teacher/records/make',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '종합기록 생성', link: '/teacher/records/make' }
+      //   ]
+      // },
+      // {
+      //   text: '리포트',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '등록', link: '/teacher/reports/make' },
+      //     { text: '확인', link: '/teacher/reports/see' },
+      //     { text: '공유', link: '/teacher/reports/share' }
+      //   ]
+      // },
+      // {
+      //   text: 'AI 커뮤니티', link: '/teacher/community/content',
+      //   items: [
+      //     { text: '', link: '/teacher/community/content' }
+      //   ]
+      // }
     ],
     '/student/': [
       {

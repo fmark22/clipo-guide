@@ -1,7 +1,4 @@
 # 학기 설정 <Badge type="tip">대표 교사</Badge>
-
-![이미지](./img/example.png)
-<p></p>
 학기 운영기간을 설정해 주세요
 
 ![학기 운영기간 설정](./img/semesteradd.png)

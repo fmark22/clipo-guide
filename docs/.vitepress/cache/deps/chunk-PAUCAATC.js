@@ -11261,7 +11261,7 @@ var initDirectivesForSSR = () => {
   }
 };
 
-// node_modules/vitepress/node_modules/vue/dist/vue.runtime.esm-bundler.js
+// node_modules/vue/dist/vue.runtime.esm-bundler.js
 function initDev() {
   {
     initCustomFormatter();
@@ -11479,4 +11479,4 @@ vue/dist/vue.runtime.esm-bundler.js:
   * @license MIT
   **)
 */
-//# sourceMappingURL=chunk-VZGOYY3V.js.map
+//# sourceMappingURL=chunk-PAUCAATC.js.map
