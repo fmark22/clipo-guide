@@ -1,8 +1,10 @@
 # 클리포 영상
+
 클리포 활용 방법을 영상으로 확인해 보세요.
 
+
 <script setup>
-import { ref } from 'vue'
+import { ref, nextTick } from 'vue'
 
 const categories = ref([
   {
@@ -26,7 +28,7 @@ const categories = ref([
       { title: '수행평가 채점', youtubeId: 'sZ-WarOoQZY' },
       { title: '수행평가 자동 채점', youtubeId: 'ZPfXBXPk-vM' },
       { title: '수행평가 종합 기록', youtubeId: '1YKjy0OX0D4' },
-      { title: '리포트',  youtubeId: '4gr7qMDObzg' },
+      { title: '리포트', youtubeId: '4gr7qMDObzg' },
     ]
   },
   {
@@ -38,16 +40,34 @@ const categories = ref([
   },
 ])
 
-function toggleVideo(video) {
-  video.isPlaying = !video.isPlaying
-  // 다른 모든 비디오 재생 중지
-  categories.value.forEach(category => {
-    category.videos.forEach(v => {
-      if (v !== video) v.isPlaying = false
-    })
+const selectedVideo = ref(null)
+
+function selectVideo(video) {
+  selectedVideo.value = video
+
+  nextTick(() => {
+    const videoElement = document.querySelector('.video-player')
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
   })
 }
 </script>
+
+<div v-if="selectedVideo" class="video-player">
+  <p>
+  <h1>{{ selectedVideo.title }}</h1>
+  </p>
+  <iframe 
+    width="560" 
+    height="315" 
+    :src="`https://www.youtube.com/embed/${selectedVideo.youtubeId}`" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+  <p>{{ selectedVideo.description }}</p>
+</div>
 
 <template v-for="category in categories" :key="category.id">
   <h2 :id="category.id">{{ category.name }}</h2>
@@ -56,17 +76,7 @@ function toggleVideo(video) {
       <img :src="`https://img.youtube.com/vi/${video.youtubeId}/0.jpg`" :alt="`${video.title} 썸네일`">
       <h3>{{ video.title }}</h3>
       <p>{{ video.description }}</p>
-      <button @click="toggleVideo(video)" class="watch-button">
-        {{ video.isPlaying ? '닫기' : '시청하기' }}
-      </button>
-      <div v-if="video.isPlaying" class="video-player">
-        <iframe 
-          :src="`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen
-        ></iframe>
-      </div>
+      <button @click="selectVideo(video)" class="watch-button">시청하기</button>
     </div>
   </div>
 </template>
@@ -85,12 +95,6 @@ function toggleVideo(video) {
 .video-item img {
   width: 100%;
   height: auto;
-}
-.video-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
 }
 .watch-button {
   display: inline-block;
