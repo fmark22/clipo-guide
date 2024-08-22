@@ -1,4 +1,3 @@
-import markdownIt from 'markdown-it'
 import { defineConfig } from 'vitepress'
 
 // TypeScript에 타입을 명시적으로 추가
@@ -70,8 +69,6 @@ export default defineConfig({
     hostname: "https://guide.clipo.ai",
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    logo: '/',
     nav: [
       { text: '홈', link: '/' },
       { text: '클리포로 이동', link: 'https://clipo.ai' },
@@ -98,6 +95,15 @@ export default defineConfig({
           { text: '학기설정', link: '/teacher/school/semester' },
           { text: '선생님 관리', link: '/teacher/school/teachers' },
           { text: '학생 관리', link: '/teacher/school/students' }
+        ]
+      },
+      {
+        text: '평가계획',
+        collapsed: false,
+        items: [
+          { text: '평가계획 목록', link: '/teacher/evaluationPlan/list' },
+          { text: '폥가계획 설계', link: '/teacher/evaluationPlan/make' },
+          { text: '평가계획 자료실', link: '/teacher/evaluationPlan/resources' }
         ]
       },
       {
@@ -163,7 +169,6 @@ export default defineConfig({
         text: '클리포 시작하기',
         collapsed: false,
         items: [
-          //{ text: '<strong>클리포 시작하기</strong>' },
           { text: '로그인', link: '/student/account/login' },
           { text: '비밀번호 변경', link: '/student/account/password' },
           { text: '홈화면', link: '/student/account/home' }
@@ -194,6 +199,34 @@ export default defineConfig({
           { text: '기초진단 결과 확인', link: '/student/basic/results' }
         ]
       }
+    ],
+    '/video/': [
+      {
+        text: '기본 소개',
+        collapsed: false,
+        items: [
+          { text: '소개', link: '/video/intro' },
+          { text: '설계 이념', link: '/video/philosophy' },
+          { text: '주요 기능', link: '/video/features' },
+        ]
+      },
+      {
+        text: '기능 소개',
+        collapsed: false,
+        items: [
+          { text: '기본 설정', link: '/video/setting' },
+          { text: '관찰 기록', link: '/video/records' },
+          { text: '수행평가 설계', link: '/video/design' },
+          { text: '수행평가 과제', link: '/video/tasks' },
+          { text: '수행평가 채점', link: '/video/grading' },
+          { text: '수행평가 자동 채점', link: '/video/aigrading' },
+          { text: '종합 기록', link: '/video/recording' },
+          { text: '리포트', link: '/video/reports' },
+        ]
+      },
+      {
+        text: '<strong>온라인 연수</strong>', link: '/video/training'
+      },
     ]
   },
     socialLinks: [
@@ -202,10 +235,9 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2024 Datadriven'
     },
-    search: {
-      provider: 'local'
-    },
     outlineTitle: '개요',
+    sidebarMenuLabel: '메뉴',
+    returnToTopLabel: ':작은_위쪽_화살표: 맨 위로',
     docFooter: {
       prev: '이전',
       next: '다음'
