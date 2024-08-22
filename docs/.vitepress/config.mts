@@ -131,15 +131,15 @@ export default defineConfig({
           { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
         ]
       },
-      // {
-      //   text: '수행평가 채점',
-      //   collapsed: false,
-      //   items: [
-      //     { text: '채점', link: '/teacher/assessment_grade/grading' },
-      //     { text: 'AI Assistant', link: '/teacher/assessment_grade/assistant' },
-      //     { text: '채점 결과', link: '/teacher/assessment_grade/result' }
-      //   ]
-      // },
+      {
+        text: '수행평가 채점',
+        collapsed: false,
+        items: [
+          { text: '채점', link: '/teacher/assessment_grade/grading' },
+          { text: 'AI Assistant', link: '/teacher/assessment_grade/assistant' },
+          { text: '채점 결과', link: '/teacher/assessment_grade/result' }
+        ]
+      },
       // {
       //   text: '종합기록', link: '/teacher/records/make',
       //   collapsed: false,
@@ -156,12 +156,12 @@ export default defineConfig({
       //     { text: '공유', link: '/teacher/reports/share' }
       //   ]
       // },
-      // {
-      //   text: 'AI 커뮤니티', link: '/teacher/community/content',
-      //   items: [
-      //     { text: '', link: '/teacher/community/content' }
-      //   ]
-      // }
+      {
+        text: 'AI 커뮤니티', link: '/teacher/community/content',
+        items: [
+          { text: '', link: '/teacher/community/content' }
+        ]
+      }
     ],
     '/student/': [
       {
