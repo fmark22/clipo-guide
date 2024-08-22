@@ -11,11 +11,21 @@ features:
   - icon : 🧑‍🏫
     title: 교사용 가이드
     details: 선생님을 위한 클리포 가이드입니다.
+<<<<<<< HEAD
     link: /teacher/index
   - icon : 🧑‍🎓
     title: 학생용 가이드
     details: 학생들이 클리포를 활용하는 방법을 알아보세요.
     link: /student/index
+=======
+    # link: /teacher
+    # link: /teacher/index
+  - icon : 🧑‍🎓
+    title: 학생용 가이드
+    details: 학생들이 클리포를 활용하는 방법을 알아보세요.
+    # link : /student
+    # link: /student/index
+>>>>>>> parent of 7c5693c (0820 work)
   - icon : 💻
     title: 클리포 영상
     details: 클리포 활용 방법을 영상으로 확인해 보세요.

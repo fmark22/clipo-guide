@@ -1,3 +1,4 @@
+import markdownIt from 'markdown-it'
 import { defineConfig } from 'vitepress'
 
 // TypeScript에 타입을 명시적으로 추가
@@ -5,6 +6,7 @@ interface MarkdownConfig {
   config: (md: any) => void
 }
 
+// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "클리포 가이드",
   description: "처음 시작 가이드",
@@ -67,12 +69,9 @@ export default defineConfig({
   sitemap: {
     hostname: "https://guide.clipo.ai",
   },
-  // 기본 테마 설정
   themeConfig: {
-    // logo: '/',
-    search: {
-      provider: 'local', // 기본 제공 로컬 검색 기능 사용
-    },
+    // https://vitepress.dev/reference/default-theme-config
+    logo: '/',
     nav: [
       { text: '홈', link: '/' },
       { text: '클리포로 이동', link: 'https://clipo.ai' },
@@ -227,12 +226,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'youtube', link: 'https://www.youtube.com/@clipo-ai' }
     ],
-    footer: { 
+    footer: {
       copyright: 'Copyright © 2024 Datadriven'
     },
+    search: {
+      provider: 'local'
+    },
     outlineTitle: '개요',
-    sidebarMenuLabel: '메뉴',
-    returnToTopLabel: '🔼 맨 위로',
     docFooter: {
       prev: '이전',
       next: '다음'
