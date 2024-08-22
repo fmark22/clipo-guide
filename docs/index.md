@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "클리포(CLIPO) 가이드"
-  # text: "가이드"
   tagline: 클리포 활용 방법을 안내드려요.
   
 features:
