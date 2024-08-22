@@ -115,22 +115,22 @@ export default defineConfig({
           { text: '관찰 기록', link: '/teacher/course/record' }
         ]
       },
-      // {
-      //   text: '수행평가 설계',
-      //   collapsed: false,
-      //   items: [
-      //     { text: '등록', link: '/teacher/assessment/make' },
-      //   ]
-      // },
-      // {
-      //   text: '수행평가 과제',
-      //   collapsed: false,
-      //   items: [
-      //     { text: '등록', link: '/teacher/assessment_task/make' },
-      //     { text: '관리', link: '/teacher/assessment_task/manage' },
-      //     { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
-      //   ]
-      // },
+      {
+        text: '수행평가 설계',
+        collapsed: false,
+        items: [
+          { text: '등록', link: '/teacher/assessment/make' },
+        ]
+      },
+      {
+        text: '수행평가 과제',
+        collapsed: false,
+        items: [
+          { text: '등록', link: '/teacher/assessment_task/make' },
+          { text: '관리', link: '/teacher/assessment_task/manage' },
+          { text: 'PDF 업로드', link: '/teacher/assessment_task/upload' },
+        ]
+      },
       // {
       //   text: '수행평가 채점',
       //   collapsed: false,
