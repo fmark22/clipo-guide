@@ -11,7 +11,7 @@ features:
   - icon : 🧑‍🏫
     title: 교사용 가이드
     details: 선생님을 위한 클리포 가이드입니다.
-    link: /teacher/index
+    link: /teacher/account/signup
   - icon : 🧑‍🎓
     title: 학생용 가이드
     details: 학생들이 클리포를 활용하는 방법을 알아보세요.
