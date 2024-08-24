@@ -7,6 +7,7 @@ interface MarkdownConfig {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  //마우스 우클릭 금지
   title: "클리포 가이드",
   description: "처음 시작 가이드",
   head: [
@@ -232,11 +233,11 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/@clipo-ai' }
     ],
     footer: {
-      copyright: 'Copyright © 2024 Datadriven'
+      copyright: 'Copyright © 2024 DATADRIVEN'
     },
     outlineTitle: '개요',
     sidebarMenuLabel: '메뉴',
-    returnToTopLabel: ':작은_위쪽_화살표: 맨 위로',
+    returnToTopLabel: '맨 위로',
     docFooter: {
       prev: '이전',
       next: '다음'
