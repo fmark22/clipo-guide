@@ -5,7 +5,7 @@ const categories = ref([
   {
     name: '기본 소개',
     videos: [
-      { title: '클리포 소개', youtubeId: 'wiTCb9JjTzs' },
+      { title: '클리포 소개', youtubeId: '1PtPUpPl_ZQ' },
     ]
   }
 ])
