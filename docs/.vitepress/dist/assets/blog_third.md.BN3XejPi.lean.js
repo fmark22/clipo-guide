@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./chunks/framework.BGo0cstt.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/third.md","filePath":"blog/third.md"}'),a={name:"blog/third.md"};function o(s,c,n,d,i,p){return r(),e("div")}const m=t(a,[["render",o]]);export{l as __pageData,m as default};
