@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "sitemap": "^8.0.0",
+    "vite": "^5.4.10",
     "vitepress": "^1.4.1"
   },
   "scripts": {
@@ -8,7 +9,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "build": "npm run docs:build"
-},
+  },
   "dependencies": {
     "entities": "^5.0.0",
     "react-icon": "^1.0.0",
@@ -23,8 +24,8 @@
     "doc": "docs"
   },
   "engines": {
-  "node": ">=16"
-},
+    "node": ">=16"
+  },
   "author": "",
   "license": "ISC"
 }
