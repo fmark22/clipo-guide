@@ -6,8 +6,9 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
+    "docs:preview": "vitepress preview docs",
+    "build": "npm run docs:build"
+},
   "dependencies": {
     "entities": "^5.0.0",
     "react-icon": "^1.0.0",
@@ -21,6 +22,9 @@
   "directories": {
     "doc": "docs"
   },
+  "engines": {
+  "node": ">=16"
+},
   "author": "",
   "license": "ISC"
 }
