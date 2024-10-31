@@ -16,7 +16,7 @@ layout: doc
       <p>안용중학교 유주열 선생님의 클리포 활용 사례와 수기를 통해 교육 현장에서의 AI 활용 경험을 공유합니다.</p>
       <div class="author-info">
         <span>안용중학교 유주열 선생님</span>
-        <span class="date">2024/01/15</span>
+        <span class="date">2024/09/10</span>
       </div>
     </div>
   </a>
@@ -29,7 +29,7 @@ layout: doc
       <p>2024년 첫 클리포 교사 연수 현장의 생생한 후기와 참여 선생님들의 소감을 전합니다.</p>
       <div class="author-info">
         <span>안용중학교 이대원 선생님</span>
-        <span class="date">2024/01/10</span>
+        <span class="date">2024/09/15</span>
       </div>
     </div>
   </a>
@@ -42,7 +42,7 @@ layout: doc
       <p>안용중학교 권병준 선생님이 전하는 클리포를 통한 교실 혁신 이야기를 소개합니다.</p>
       <div class="author-info">
         <span>안용중학교 권병준 선생님</span>
-        <span class="date">2024/01/05</span>
+        <span class="date">2024/09/25</span>
       </div>
     </div>
   </a>
@@ -55,7 +55,7 @@ layout: doc
       <p>안용중학교 권병준 선생님이 전하는 클리포를 통한 교실 혁신 이야기를 소개합니다.</p>
       <div class="author-info">
         <span>안용중학교 권병준 선생님</span>
-        <span class="date">2024/01/05</span>
+        <span class="date">2024/09/26</span>
       </div>
     </div>
   </a>
