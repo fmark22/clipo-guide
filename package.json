@@ -24,7 +24,7 @@
     "doc": "docs"
   },
   "engines": {
-    "node": ">=16"
+    "node": "18.x"
   },
   "author": "",
   "license": "ISC"
