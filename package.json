@@ -9,7 +9,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "build": "npm run docs:build",
-    "postinstall": "chmod +x ./node_modules/.bin/vitepress"
+    "postinstall": "chmod +x ./node_modules/.bin/vitepress",
+    "docs:build": "vitepress build docs"
   },
   "dependencies": {
     "entities": "^5.0.0",
@@ -24,9 +25,9 @@
   "directories": {
     "doc": "docs"
   },
-  "engines": {
-    "node": "20.x"
-  },
+"engines": {
+  "node": "18.x"
+},
   "author": "",
   "license": "ISC"
 }
