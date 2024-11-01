@@ -10,11 +10,12 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "entities": "^5.0.0",
     "react-icon": "^1.0.0",
+    "vitepress": "^1.x.x",
     "vitepress-markdown-timeline": "^1.2.1",
-    "vue": "^3.4.38",
-    "vitepress": "^1.x.x"
+    "vue": "^3.4.38"
   },
   "name": "clipo-guide",
   "version": "1.0.0",
